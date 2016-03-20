@@ -12,12 +12,12 @@ var PromptContainer = React.createClass({
       username: ''
     };
   },
-  handleUpdateUser : function(e){
+  handleUpdateUser(e){
     this.setState({
       username: e.target.value
     })
   },
-  handleSubmitUser : function(e){
+  handleSubmitUser(e){
     e.preventDefault();
     var username = this.state.username;
     this.setState({
@@ -38,7 +38,7 @@ var PromptContainer = React.createClass({
       this.context.router.push('/playerTwo/' + this.state.username);
     }
   },
-  render: function(){
+  render(){
     return(
       <Prompt onSubmitUser={this.handleSubmitUser}
               onUpdateUser={this.handleUpdateUser}

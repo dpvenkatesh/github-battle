@@ -52,8 +52,7 @@ var Loading = React.createClass({
   componentWillUnmount() {
     clearInterval(this.interval);
   },
-
-  render : function(){
+  render(){
     return (
       <div style={styles.container}>
         <p style={styles.content}>{this.state.text}</p>
