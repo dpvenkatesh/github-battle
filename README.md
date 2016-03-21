@@ -31,3 +31,4 @@ This app works with:
 - babel
 - style,css loader
 - webpack
+- bootstrap
