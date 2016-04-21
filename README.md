@@ -22,12 +22,13 @@ and then open the browser at `http://localhost:8080`
 ## So what?
 This is my very first experiment in learning with React following the lovely free basic course from
 [@tylermcginnis33](http://twitter.com/tylermcginnis33).  
-This app works with:
+stuff used:
 
-- JSX (stateless functional) components
+- react
 - react-router
 - axios
-- react-addons-css-transition-group
-- babel
-- style,css loader
+- re-base for connecting to Firebase
+- babel to transpile JSX and some ES6 to JS
 - webpack
+- style,css loader
+- react-addons-css-transition-group
