@@ -24,11 +24,13 @@ This is my very first experiment in learning with React following the lovely fre
 [@tylermcginnis33](http://twitter.com/tylermcginnis33).  
 stuff used:
 
-- react
-- react-router
-- axios
-- re-base for connecting to Firebase
-- babel to transpile JSX and some ES6 to JS
-- webpack
-- style,css loader
-- react-addons-css-transition-group
+- react  
+- react-router  
+- axios  
+- re-base for connecting to Firebase  
+- babel to transpile JSX and some ES6 to JS  
+- webpack  
+- style,css loader  
+- react-addons-css-transition-group  
+- bootstrap  
+
